@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    ROOT: INFO
+    fantasymanager: DEBUG
+    org.springframework: ERROR
+    org.springframework.data: ERROR
+    org.mongodb: ERROR
+  file: c:/logs/fantasymanager/application.log
